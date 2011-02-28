@@ -1,0 +1,183 @@
+...........FFF......................................
+
+Failures:
+
+  1) UsersController GET 'new' should have an email field
+     Failure/Error: response.should have_selector("input[email='user[email]'][type='text']")
+       expected following output to contain a <input[email='user[email]'][type='text']/> tag:
+       <!DOCTYPE html>
+       <html>
+       <head>
+       <title>Ruby on Rails Tutorial Sample App | Sign up now!</title>
+       <!--[if lt IE 9]>
+       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+       <![endif]--><link href="/stylesheets/blueprint/screen.css?1298467507" media="screen" rel="stylesheet" type="text/css">
+       <link href="/stylesheets/blueprint/print.css?1298467507" media="print" rel="stylesheet" type="text/css">
+       <!--[if lt IE 8]?<link href="/stylesheets/blueprint/ie.css?1298467507" media="screen" rel="stylesheet" type="text/css" /><![endif]--><link href="/stylesheets/custom.css?1298898525" media="screen" rel="stylesheet" type="text/css">
+       </head>
+       <body>
+           <div class="container">
+             <header><a href="/"><img alt="Sample App" class="round" src="/images/logo.png?1298559492"></a>
+       <nav class="round"><ul>
+       <li><a href="/">Home</a></li>
+       <li>
+         </li>
+       <li><a href="/help">Help</a></li>
+       <li>
+         </li>
+       <li><a href="#">Sign in</a></li>
+       <li>
+       </li>
+       </ul></nav></header><section class="round"><h1>Sign up</h1>
+       
+       <form accept-charset="UTF-8" action="/users" class="new_user" id="new_user" method="post">
+       <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#10003;"></div>
+         
+       
+         <div class="field">
+           <label for="user_name">Name</label><br><input id="user_name" name="user[name]" size="30" type="text">
+       </div>
+         <div class="field">
+           <label for="user_email">Email</label><br><input id="user_email" name="user[email]" size="30" type="text">
+       </div>
+         <div class="field">
+           <label for="user_password">Password</label><br><input id="user_password" name="user[password]" size="30" type="password">
+       </div>
+         <div class="field">
+           <label for="user_password_confirmation">Confirmation</label><br><input id="user_password_confirmation" name="user[password_confirmation]" size="30" type="password">
+       </div>
+         <div class="actions">
+           <input id="user_submit" name="commit" type="submit" value="Sign up">
+       </div>
+       </form>
+             </section><footer><nav class="round"><ul>
+       <li><a href="/about">About</a></li>
+             <li><a href="/contact">Contact</a></li>
+             <li><a href="http://news.railstutorial.org/">News</a></li>
+             <li><a href="http://www.railstutorial.org/">Rails Tutorial</a></li>
+           </ul></nav></footer>
+       </div>
+         </body>
+       </html>
+     # ./spec/controllers/users_controller_spec.rb:25
+
+  2) UsersController GET 'new' should have an password field
+     Failure/Error: response.should have_selector("input[password='user[password]'][type='text']")
+       expected following output to contain a <input[password='user[password]'][type='text']/> tag:
+       <!DOCTYPE html>
+       <html>
+       <head>
+       <title>Ruby on Rails Tutorial Sample App | Sign up now!</title>
+       <!--[if lt IE 9]>
+       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+       <![endif]--><link href="/stylesheets/blueprint/screen.css?1298467507" media="screen" rel="stylesheet" type="text/css">
+       <link href="/stylesheets/blueprint/print.css?1298467507" media="print" rel="stylesheet" type="text/css">
+       <!--[if lt IE 8]?<link href="/stylesheets/blueprint/ie.css?1298467507" media="screen" rel="stylesheet" type="text/css" /><![endif]--><link href="/stylesheets/custom.css?1298898525" media="screen" rel="stylesheet" type="text/css">
+       </head>
+       <body>
+           <div class="container">
+             <header><a href="/"><img alt="Sample App" class="round" src="/images/logo.png?1298559492"></a>
+       <nav class="round"><ul>
+       <li><a href="/">Home</a></li>
+       <li>
+         </li>
+       <li><a href="/help">Help</a></li>
+       <li>
+         </li>
+       <li><a href="#">Sign in</a></li>
+       <li>
+       </li>
+       </ul></nav></header><section class="round"><h1>Sign up</h1>
+       
+       <form accept-charset="UTF-8" action="/users" class="new_user" id="new_user" method="post">
+       <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#10003;"></div>
+         
+       
+         <div class="field">
+           <label for="user_name">Name</label><br><input id="user_name" name="user[name]" size="30" type="text">
+       </div>
+         <div class="field">
+           <label for="user_email">Email</label><br><input id="user_email" name="user[email]" size="30" type="text">
+       </div>
+         <div class="field">
+           <label for="user_password">Password</label><br><input id="user_password" name="user[password]" size="30" type="password">
+       </div>
+         <div class="field">
+           <label for="user_password_confirmation">Confirmation</label><br><input id="user_password_confirmation" name="user[password_confirmation]" size="30" type="password">
+       </div>
+         <div class="actions">
+           <input id="user_submit" name="commit" type="submit" value="Sign up">
+       </div>
+       </form>
+             </section><footer><nav class="round"><ul>
+       <li><a href="/about">About</a></li>
+             <li><a href="/contact">Contact</a></li>
+             <li><a href="http://news.railstutorial.org/">News</a></li>
+             <li><a href="http://www.railstutorial.org/">Rails Tutorial</a></li>
+           </ul></nav></footer>
+       </div>
+         </body>
+       </html>
+     # ./spec/controllers/users_controller_spec.rb:30
+
+  3) UsersController GET 'new' should have an password confirmation field
+     Failure/Error: response.should have_selector(
+       expected following output to contain a <input[password_confirmation='user[password_confirmation]'][type='text']/> tag:
+       <!DOCTYPE html>
+       <html>
+       <head>
+       <title>Ruby on Rails Tutorial Sample App | Sign up now!</title>
+       <!--[if lt IE 9]>
+       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+       <![endif]--><link href="/stylesheets/blueprint/screen.css?1298467507" media="screen" rel="stylesheet" type="text/css">
+       <link href="/stylesheets/blueprint/print.css?1298467507" media="print" rel="stylesheet" type="text/css">
+       <!--[if lt IE 8]?<link href="/stylesheets/blueprint/ie.css?1298467507" media="screen" rel="stylesheet" type="text/css" /><![endif]--><link href="/stylesheets/custom.css?1298898525" media="screen" rel="stylesheet" type="text/css">
+       </head>
+       <body>
+           <div class="container">
+             <header><a href="/"><img alt="Sample App" class="round" src="/images/logo.png?1298559492"></a>
+       <nav class="round"><ul>
+       <li><a href="/">Home</a></li>
+       <li>
+         </li>
+       <li><a href="/help">Help</a></li>
+       <li>
+         </li>
+       <li><a href="#">Sign in</a></li>
+       <li>
+       </li>
+       </ul></nav></header><section class="round"><h1>Sign up</h1>
+       
+       <form accept-charset="UTF-8" action="/users" class="new_user" id="new_user" method="post">
+       <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#10003;"></div>
+         
+       
+         <div class="field">
+           <label for="user_name">Name</label><br><input id="user_name" name="user[name]" size="30" type="text">
+       </div>
+         <div class="field">
+           <label for="user_email">Email</label><br><input id="user_email" name="user[email]" size="30" type="text">
+       </div>
+         <div class="field">
+           <label for="user_password">Password</label><br><input id="user_password" name="user[password]" size="30" type="password">
+       </div>
+         <div class="field">
+           <label for="user_password_confirmation">Confirmation</label><br><input id="user_password_confirmation" name="user[password_confirmation]" size="30" type="password">
+       </div>
+         <div class="actions">
+           <input id="user_submit" name="commit" type="submit" value="Sign up">
+       </div>
+       </form>
+             </section><footer><nav class="round"><ul>
+       <li><a href="/about">About</a></li>
+             <li><a href="/contact">Contact</a></li>
+             <li><a href="http://news.railstutorial.org/">News</a></li>
+             <li><a href="http://www.railstutorial.org/">Rails Tutorial</a></li>
+           </ul></nav></footer>
+       </div>
+         </body>
+       </html>
+     # ./spec/controllers/users_controller_spec.rb:35
+
+Finished in 2.75 seconds
+52 examples, 3 failures
