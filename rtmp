@@ -1,0 +1,46 @@
+Exception encountered: #<SyntaxError: /home/juha/Work/sample_app/spec/controllers/microposts_controller_spec.rb:46: odd number list for Hash
+        @attr = { :content = "Lorem ipsum" }
+                            ^
+/home/juha/Work/sample_app/spec/controllers/microposts_controller_spec.rb:46: syntax error, unexpected '=', expecting '}'
+        @attr = { :content = "Lorem ipsum" }
+                            ^
+/home/juha/Work/sample_app/spec/controllers/microposts_controller_spec.rb:46: syntax error, unexpected '}', expecting kEND
+/home/juha/Work/sample_app/spec/controllers/microposts_controller_spec.rb:67: syntax error, unexpected $end, expecting kEND>
+backtrace:
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/activesupport-3.0.4/lib/active_support/dependencies.rb:235:in `load'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/activesupport-3.0.4/lib/active_support/dependencies.rb:235:in `load'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/activesupport-3.0.4/lib/active_support/dependencies.rb:227:in `load_dependency'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/activesupport-3.0.4/lib/active_support/dependencies.rb:235:in `load'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/rspec-core-2.5.1/lib/rspec/core/configuration.rb:386:in `load_spec_files'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/rspec-core-2.5.1/lib/rspec/core/configuration.rb:386:in `map'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/rspec-core-2.5.1/lib/rspec/core/configuration.rb:386:in `load_spec_files'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/rspec-core-2.5.1/lib/rspec/core/command_line.rb:18:in `run'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/rspec-core-2.5.1/lib/rspec/monkey/spork/test_framework/rspec.rb:4:in `run_tests'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/spork-0.9.0.rc3/lib/spork/run_strategy/forking.rb:13:in `run'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/spork-0.9.0.rc3/lib/spork/forker.rb:21:in `initialize'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/spork-0.9.0.rc3/lib/spork/forker.rb:18:in `fork'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/spork-0.9.0.rc3/lib/spork/forker.rb:18:in `initialize'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/spork-0.9.0.rc3/lib/spork/run_strategy/forking.rb:9:in `new'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/spork-0.9.0.rc3/lib/spork/run_strategy/forking.rb:9:in `run'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/spork-0.9.0.rc3/lib/spork/server.rb:48:in `run'
+/home/juha/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/drb/drb.rb:1558:in `__send__'
+/home/juha/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/drb/drb.rb:1558:in `perform_without_block'
+/home/juha/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/drb/drb.rb:1518:in `perform'
+/home/juha/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/drb/drb.rb:1592:in `main_loop'
+/home/juha/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/drb/drb.rb:1588:in `loop'
+/home/juha/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/drb/drb.rb:1588:in `main_loop'
+/home/juha/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/drb/drb.rb:1584:in `start'
+/home/juha/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/drb/drb.rb:1584:in `main_loop'
+/home/juha/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/drb/drb.rb:1433:in `run'
+/home/juha/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/drb/drb.rb:1430:in `start'
+/home/juha/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/drb/drb.rb:1430:in `run'
+/home/juha/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/drb/drb.rb:1350:in `initialize'
+/home/juha/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/drb/drb.rb:1630:in `new'
+/home/juha/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/drb/drb.rb:1630:in `start_service'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/spork-0.9.0.rc3/lib/spork/server.rb:29:in `listen'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/spork-0.9.0.rc3/lib/spork/server.rb:20:in `run'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/spork-0.9.0.rc3/bin/../lib/spork/runner.rb:75:in `run'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/spork-0.9.0.rc3/bin/../lib/spork/runner.rb:10:in `run'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/gems/spork-0.9.0.rc3/bin/spork:10
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/bin/spork:19:in `load'
+/home/juha/.rvm/gems/ruby-1.8.7-p330@rails3/bin/spork:19
